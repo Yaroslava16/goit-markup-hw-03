@@ -204,6 +204,13 @@ a {
     background-color: var(--accent-color);
 }
 
+.btn-group button {
+    border-radius: 4px; 
+    padding: 6px 22px;
+    min-width: 73px;
+    text-align: center;
+}
+
 .hero {
     background-color: var(--secondary-bgc);
 }
@@ -235,12 +242,16 @@ footer {
 }
 
 .hero-btn {
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+
     color: var(--white-color);
     background-color: var(--accent-color);
+    
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
-    /* identical to box height, or 187% */
     display: flex;
     align-items: center;
     text-align: center;
