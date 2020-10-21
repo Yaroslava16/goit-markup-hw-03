@@ -298,13 +298,42 @@ padding-left: 215px;
     margin-bottom: 94px;
 }
 
+.portfolio-conteiner {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    margin-bottom: 94px;
+}
+
+.btn-conteiner {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
 .footer-conteiner {
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin: auto; 
 }
-
 .benefits-list{
     margin: 0;
+}
+
+
+
+.a {
+    background-color: darkgoldenrod;
+}
+
+.f {
+background-color: cyan;
+}
+
+.c {
+    background-color: darkkhaki;
 }
