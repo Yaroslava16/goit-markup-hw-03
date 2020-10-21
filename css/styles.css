@@ -89,6 +89,19 @@ a {
     text-decoration: none;  
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
 .invisible {
     display: none;
 }
@@ -271,4 +284,27 @@ footer {
 
 .site-nav a.current:visited {
     color: var(--accent-color);
+}
+
+.nav-conteiner>a {
+padding-left: 215px; 
+}
+
+.conteiner {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    margin-bottom: 94px;
+}
+
+.footer-conteiner {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto; 
+}
+
+.benefits-list{
+    margin: 0;
 }
