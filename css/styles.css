@@ -216,12 +216,10 @@ p {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    width: 696px;
-    padding-top: 200px;
-    padding-right: 452px;
-    padding-bottom: 0;
-    padding-left: 452px; 
-    margin: auto;
+    max-width: 700px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 30px;
 
     background-color: yellow;
@@ -254,6 +252,9 @@ p {
 
 .hero {
     background-color: var(--secondary-bgc);
+
+    height: 600px;
+    margin-bottom: 94px;
 }
 
 .address {
@@ -301,6 +302,10 @@ footer {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 200px;
 }
 
 .contacts a {
@@ -370,14 +375,3 @@ padding-left: 215px;
 
 
 
-.a {
-    background-color: darkgoldenrod;
-}
-
-.f {
-background-color: cyan;
-}
-
-.c {
-    background-color: darkkhaki;
-}
