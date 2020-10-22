@@ -171,18 +171,25 @@ p {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+
+    padding-bottom: 50px;
 }
 
 .name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+
+    padding-bottom: 10px;
 }
 
 .position {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.18;
+
+    padding-bottom: 30px;
+    margin: 0;
 }
 
 .title-capabilities {
@@ -330,6 +337,10 @@ padding-left: 215px;
 
 .list-p {
    width: 270px;
+}
+
+.section-img {
+    padding-bottom: 30px;
 }
 
 
