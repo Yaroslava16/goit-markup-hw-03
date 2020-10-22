@@ -215,6 +215,16 @@ p {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    width: 696px;
+    padding-top: 200px;
+    padding-right: 452px;
+    padding-bottom: 0;
+    padding-left: 452px; 
+    margin: auto;
+    margin-bottom: 30px;
+
+    background-color: yellow;
 }
 
 .btn-group button {
@@ -252,6 +262,8 @@ p {
     font-weight: normal;
     font-size: 14px;
     line-height: 1,71;
+
+    margin-bottom: 9px;
 }
 
 .mail-phone a {
@@ -266,8 +278,8 @@ footer {
 
 .footer-logo {
     color: var(--white-color);
-
-    padding-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .command {
@@ -344,6 +356,16 @@ padding-left: 215px;
 
 .section-img {
     padding-bottom: 30px;
+}
+
+.mail {
+    display: inline-block;
+    padding-bottom: 9px;
+}
+
+.tell {
+    display: inline-block;
+    padding-bottom: 60px;
 }
 
 
