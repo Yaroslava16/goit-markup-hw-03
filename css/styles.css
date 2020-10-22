@@ -266,6 +266,8 @@ footer {
 
 .footer-logo {
     color: var(--white-color);
+
+    padding-bottom: 20px;
 }
 
 .command {
@@ -327,6 +329,7 @@ padding-left: 215px;
 
 .footer-conteiner {
     width: 1200px;
+    padding-top: 60px;
     padding-right: 15px;
     padding-left: 15px;
     margin: auto; 
