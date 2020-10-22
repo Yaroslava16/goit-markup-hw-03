@@ -107,6 +107,8 @@ p {
 }
 
 .logo {
+    margin-right: 93px;
+    
     color: var(--title-text-color);
     text-decoration: none;
     font-family: Raleway;
@@ -373,5 +375,31 @@ padding-left: 215px;
     padding-bottom: 60px;
 }
 
+.site-nav {
+    display: flex;
+}
 
+.site-nav .item {
+    margin-right: 50px;
+}
 
+.site-nav .item:last-child {
+    margin-right: 0;
+}
+
+.auth-nav {
+    display: flex;
+}
+
+.auth-nav .item {
+    margin-right: 50px;
+}
+
+.auth-nav .item + .item {
+    margin-right: 50px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
