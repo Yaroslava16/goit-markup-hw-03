@@ -208,8 +208,6 @@ p {
 }
 
 .hero-title {
-    margin-top: 0;
-    margin-bottom: 0;
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
@@ -224,7 +222,7 @@ p {
     margin-left: auto;
     margin-bottom: 30px;
 
-    background-color: yellow;
+    padding-top: 200px;
 }
 
 .btn-group button {
@@ -389,6 +387,7 @@ padding-left: 215px;
 
 .auth-nav {
     display: flex;
+    margin-left: auto;
 }
 
 .auth-nav .item {
