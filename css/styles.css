@@ -194,7 +194,6 @@ p {
 }
 
 .hero-title {
-    outline: 1px solid blue;
     margin-top: 0;
     margin-bottom: 0;
     color: var(--white-color);
