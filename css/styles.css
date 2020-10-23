@@ -284,6 +284,11 @@ footer {
 }
 
 .command {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+
     background-color: var(--secondary-accent);
 }
 
@@ -412,3 +417,15 @@ padding-left: 215px;
 .card-set {
     display: flex;
   }
+
+  .img-list {
+      display: flex;
+  }
+
+.img-employment {
+    margin-right: 30px;
+}
+
+.employment-list {
+    padding-bottom: 94px;
+}
