@@ -100,6 +100,7 @@ h2,
 h3,
 p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .invisible {
@@ -196,14 +197,23 @@ p {
     margin: 0;
 }
 
+.img-capabilities {
+    padding-bottom: 20px;
+}
 .title-capabilities {
+    padding-bottom: 4px;
+    
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    color: var(--title-text-color);
 }
 
 .type-capabilities {
+    padding-bottom: 20px;
+
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
@@ -466,3 +476,7 @@ padding-left: 215px;
 
     flex-basis: calc(100% / 3 - 30px);
 }
+
+.section-item:nth-child(n + 7) {
+    margin-bottom: 94px;
+  }
