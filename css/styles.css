@@ -104,6 +104,7 @@ p {
 
 .invisible {
     display: none;
+    margin: 0;
 }
 
 .logo {
@@ -294,6 +295,7 @@ footer {
     color: var(--white-color);
     display: inline-block;
     margin-bottom: 20px;
+    margin-right: 0;
 }
 
 .command {
@@ -429,6 +431,9 @@ padding-left: 215px;
 
 .card-set {
     display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
   }
 
   .img-list {
@@ -441,4 +446,11 @@ padding-left: 215px;
 
 .employment-list {
     padding-bottom: 94px;
+}
+
+.section-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    flex-basis: calc(100% / 3 - 30px);
 }
