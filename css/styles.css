@@ -250,6 +250,19 @@ p {
     text-align: center;
 }
 
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-item {
+    margin-right: 30px;
+}
+
+.btn-item:last-child {
+    margin-right: 0;
+}
+
 .hero {
     background-color: var(--secondary-bgc);
 
