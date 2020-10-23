@@ -175,6 +175,7 @@ p {
     line-height: 1.16;
     text-align: center;
 
+    padding-top: 94px;
     padding-bottom: 50px;
 }
 
@@ -342,10 +343,11 @@ padding-left: 215px;
 
 .conteiner {
     width: 1200px;
+    padding-top: 24px;
     padding-right: 15px;
+    padding-bottom: 25px;
     padding-left: 15px;
     margin: auto;
-    margin-bottom: 94px;
 }
 
 .portfolio-conteiner {
@@ -376,6 +378,9 @@ padding-left: 215px;
 }
 
 .list-p {
+   flex-basis: calc(100% /4 - 30px);
+   margin-right: 30px;
+   margin-bottom: 94px;
    width: 270px;
    margin-right: 30px;
 }
@@ -429,6 +434,17 @@ padding-left: 215px;
     align-items: center;
 }
 
+.header {
+    margin-bottom: 94px;
+}
+
+.benefits-set {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -94px;
+}
+
 .card-set {
     display: flex;
     flex-wrap: wrap;
@@ -442,10 +458,6 @@ padding-left: 215px;
 
 .img-employment {
     margin-right: 30px;
-}
-
-.employment-list {
-    padding-bottom: 94px;
 }
 
 .section-item {
