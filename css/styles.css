@@ -72,6 +72,8 @@ html {
 --white-color: #FFFFFF;
 --secondary-bgc: #2F303A;
 --secondary-text-color: rgba(255, 255, 255, 0.6);
+--line-color: rgba(236, 236, 236, 1);
+--border-line: rgba(238, 238, 238, 1);
 }
 
 body {
@@ -103,13 +105,19 @@ p {
   margin-bottom: 0;
 }
 
+header {
+    margin-bottom: 94px;
+}
+
 .invisible {
     display: none;
     margin: 0;
 }
 
 .logo {
+    margin-top: 24px;
     margin-right: 93px;
+    margin-bottom: 25px;
     
     color: var(--title-text-color);
     text-decoration: none;
@@ -157,7 +165,6 @@ p {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
-    text-transform: uppercase;
 
     margin: 0;
     padding-bottom: 10px;
@@ -199,6 +206,10 @@ p {
 
 .img-capabilities {
     padding-bottom: 20px;
+}
+
+.capabilities {
+    padding: 20px 24px;
 }
 .title-capabilities {
     padding-bottom: 4px;
@@ -253,6 +264,7 @@ p {
 .btn-group button:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
+    outline: none;
 }
 
 .btn-group button {
@@ -260,6 +272,7 @@ p {
     padding: 6px 22px;
     min-width: 73px;
     text-align: center;
+    border: none;
 }
 
 .btn-group {
@@ -352,11 +365,15 @@ padding-left: 215px;
 }
 
 .conteiner {
-    width: 1200px;
+    /* width: 1200px;
     padding-top: 24px;
     padding-right: 15px;
     padding-bottom: 25px;
     padding-left: 15px;
+    margin: auto; */
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: auto;
 }
 
@@ -444,8 +461,9 @@ padding-left: 215px;
     align-items: center;
 }
 
-.header {
-    margin-bottom: 94px;
+.line {
+    border-bottom: 1px solid var(--line-color);
+    width: auto;
 }
 
 .benefits-set {
@@ -463,11 +481,17 @@ padding-left: 215px;
   }
 
   .img-list {
-      display: flex;
+    margin-bottom: 94px;
+    display: flex;
+
   }
 
 .img-employment {
     margin-right: 30px;
+}
+
+.employment-list {
+    display: flex;
 }
 
 .section-item {
@@ -475,6 +499,8 @@ padding-left: 215px;
     margin-bottom: 30px;
 
     flex-basis: calc(100% / 3 - 30px);
+
+    border: 1px solid var(--border-line);
 }
 
 .section-item:nth-child(n + 7) {
