@@ -402,6 +402,8 @@ padding-left: 215px;
 }
 .benefits-list{
     margin: 0;
+    padding: 0;
+    margin-bottom: 94px;
 }
 
 .list-p {
@@ -476,8 +478,6 @@ padding-left: 215px;
 .card-set {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
-    margin-bottom: -30px;
   }
 
   .img-list {
@@ -495,14 +495,15 @@ padding-left: 215px;
 }
 
 .section-item {
-    margin-right: 30px;
-    margin-bottom: 30px;
-
-    flex-basis: calc(100% / 3 - 30px);
+    flex-basis: calc((100% - 60px) / 3);
 
     border: 1px solid var(--border-line);
 }
 
-.section-item:nth-child(n + 7) {
-    margin-bottom: 94px;
-  }
+.section-item:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.section-item:not(:nth-child(-n + 3)) {
+    margin-top: 30px;
+}
