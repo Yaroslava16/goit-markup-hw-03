@@ -320,7 +320,7 @@ footer {
 }
 
 .command {
-    width: 1200px;
+    width: auto;
     padding-right: 15px;
     padding-left: 15px;
     margin: auto;
