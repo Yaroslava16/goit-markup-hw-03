@@ -105,7 +105,7 @@ p {
   margin-bottom: 0;
 }
 
-header {
+.header-p {
     margin-bottom: 94px;
 }
 
@@ -249,11 +249,16 @@ header {
 }
 
 .btn-group button {
+    
     color: var(--title-text-color);
     background-color: var(--secondary-accent);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+}
+
+.btn-item:nth-child(-n + 4) {
+    margin-right: 8px;
 }
 
 .btn-group button:hover {
@@ -278,14 +283,6 @@ header {
 .btn-group {
     display: flex;
     justify-content: center;
-}
-
-.btn-item {
-    margin-right: 30px;
-}
-
-.btn-item:last-child {
-    margin-right: 0;
 }
 
 .hero {
